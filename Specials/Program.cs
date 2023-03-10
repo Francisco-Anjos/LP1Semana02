@@ -26,6 +26,13 @@ namespace Specials
             ulong mul = ulong.MinValue;
             float mfl = float.MinValue;
             double mdb = double.MinValue;
+            double x = double.PositiveInfinity;
+            double y = double.NegativeInfinity;
+            double z = double.NaN;
+            float a = float.PositiveInfinity;
+            float b = float.NegativeInfinity;
+            float c = float.NaN;
+
 
             Console.Writeline($"Max of sbyte {sb}, and the minumum is {msb}.");
             Console.Writeline($"Max of short {sh}, and the minumum is {msh}.");
@@ -37,6 +44,9 @@ namespace Specials
             Console.Writeline($"Max of ulong {ul}, and the minumum is {mul}.");
             Console.Writeline($"Max of float {fl}, and the minumum is {mfl}.");
             Console.Writeline($"Max of double {db}, and the minumum is {mdb}.");
+            Console.WriteLine($"Positiveinfitity by double{x} and by float{a}");
+            Console.WriteLine($"NegativeInf by double{y} and by float{b}");
+            Console.WriteLine($"NaN by double {z} and by float {c}");
         }
     }
 }
