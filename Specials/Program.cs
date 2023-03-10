@@ -64,6 +64,9 @@ namespace Specials
             Console.Writeline($"Underflow ushort {us-1}");
             Console.Writeline($"Underflow uint {ui-1}");
             Console.Writeline($"Underflow ulong {ul-1}");
+            Console.Writeline($"Overflow  float {fl+1}");
+            Console.Writeline($"Overflow double {db+1}");
+
 
 
         }
