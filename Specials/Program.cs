@@ -47,6 +47,25 @@ namespace Specials
             Console.WriteLine($"Positiveinfitity by double{x} and by float{a}");
             Console.WriteLine($"NegativeInf by double{y} and by float{b}");
             Console.WriteLine($"NaN by double {z} and by float {c}");
+
+            Console.Writeline($"Overflow sbyte {sb+1}");
+            Console.Writeline($"Overflow short {sh+1}");
+            Console.Writeline($"Overflow int {it+1}");
+            Console.Writeline($"Overflow long {ln+1}");
+            Console.Writeline($"Overflow byte {bt+1}");
+            Console.Writeline($"Overflow ushort {us+1}");
+            Console.Writeline($"Overflow uint {ui+1}");
+            Console.Writeline($"Overflow ulong {ul+1}");
+            Console.Writeline($"Underflow sbyte {sb-1}");
+            Console.Writeline($"Underflow short {sh-1}");
+            Console.Writeline($"Underflow int {it-1}");
+            Console.Writeline($"Underflow long {ln-1}");
+            Console.Writeline($"Underflow byte {bt-1}");
+            Console.Writeline($"Underflow ushort {us-1}");
+            Console.Writeline($"Underflow uint {ui-1}");
+            Console.Writeline($"Underflow ulong {ul-1}");
+
+
         }
     }
 }
