@@ -56,16 +56,19 @@ namespace Specials
             Console.Writeline($"Overflow ushort {us+1}");
             Console.Writeline($"Overflow uint {ui+1}");
             Console.Writeline($"Overflow ulong {ul+1}");
-            Console.Writeline($"Underflow sbyte {sb-1}");
-            Console.Writeline($"Underflow short {sh-1}");
-            Console.Writeline($"Underflow int {it-1}");
-            Console.Writeline($"Underflow long {ln-1}");
-            Console.Writeline($"Underflow byte {bt-1}");
-            Console.Writeline($"Underflow ushort {us-1}");
-            Console.Writeline($"Underflow uint {ui-1}");
-            Console.Writeline($"Underflow ulong {ul-1}");
+            Console.Writeline($"Underflow sbyte {msb-1}");
+            Console.Writeline($"Underflow short {msh-1}");
+            Console.Writeline($"Underflow int {mit-1}");
+            Console.Writeline($"Underflow long {mln-1}");
+            Console.Writeline($"Underflow byte {mbt-1}");
+            Console.Writeline($"Underflow ushort {mus-1}");
+            Console.Writeline($"Underflow uint {mui-1}");
+            Console.Writeline($"Underflow ulong {mul-1}");
             Console.Writeline($"Overflow  float {fl+1}");
             Console.Writeline($"Overflow double {db+1}");
+            Console.Writeline($"Underflow float {mfl-1}");
+            Console.Writeline($"Underflow double {mdb-1}");
+
 
 
 
